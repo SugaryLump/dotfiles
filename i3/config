@@ -233,3 +233,9 @@ exec_always --no-startup-id firefox
 
 assign [class="discord"] 9
 for_window [class="Spotify"] move to workspace 10
+for_window [class="mpv"] floating enable
+for_window [class="Termite"] floating enable 
+for_window [class="mpv"] floating enable
+for_window [class="Termite"] floating enable 
+for_window [class="mpv"] floating enable
+for_window [class="Termite"] floating enable 

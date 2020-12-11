@@ -12,3 +12,4 @@ alias spicom='picom -b --experimental-backends --backend glx --config ~/.config/
 alias vim='nvim'
 alias ssharq='ssh search.di.uminho.pt -l a93220'
 alias doglick='nohup firefox sanger.dk &'
+alias polybarreload='nohup ~/.config/i3/polybar.sh'
