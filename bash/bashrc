@@ -13,3 +13,8 @@ alias vim='nvim'
 alias ssharq='ssh search.di.uminho.pt -l a93220'
 alias doglick='nohup firefox sanger.dk &'
 alias polybarreload='nohup ~/.config/i3/polybar.sh'
+
+cdl() {
+    cd "$1"
+    ls
+}
