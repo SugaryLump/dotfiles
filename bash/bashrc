@@ -104,3 +104,7 @@ alias doglick='nohup firefox sanger.dk &'
 alias polybarreload='nohup ~/.config/i3/polybar.sh'
 alias ohmybash="mate ~/.oh-my-bash"
 alias ls='ls --color=auto'
+cdl() {
+    cd "$1"
+    ls
+}
