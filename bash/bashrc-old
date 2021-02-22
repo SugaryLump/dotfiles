@@ -1,0 +1,15 @@
+#
+# ~/.bashrc
+#
+
+# If not running interactively, don't do anything
+[[ $- != *i* ]] && return
+
+alias ls='ls --color=auto'
+export PS1="\W\\$ "
+# alias sshsc='ssh 004a93220@sc.di.uminho.pt -okexalgorithms=+diffie-hellman-group1-sha1 -caes128-cbc'
+alias spicom='picom -b --experimental-backends --backend glx --config ~/.config/picom/picom.conf &'
+alias vim='nvim'
+alias ssharq='ssh search.di.uminho.pt -l a93220'
+alias doglick='nohup firefox sanger.dk &'
+alias polybarreload='nohup ~/.config/i3/polybar.sh'
