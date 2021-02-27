@@ -99,6 +99,7 @@ source $OSH/oh-my-bash.sh
 # Example aliases
 # alias bashconfig="mate ~/.bashrc"
 #alias spicom='picom -b --experimental-backends --backend glx --config ~/.config/picom/picom.conf &'
+alias spicom='picom -b --experimental-backends --backend glx --config ~/.config/picom/picom.conf &'
 alias vim='nvim'
 alias doglick='nohup firefox sanger.dk &'
 alias polybarreload='nohup ~/.config/i3/polybar.sh'
