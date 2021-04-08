@@ -274,7 +274,7 @@ prompt_dir() {
 prompt_status() {
     local symbols
     symbols=()
-    [[ $RETVAL -ne 0 ]] && symbols+="$(ansi_single $(fg_color red))✘"
+    #[[ $RETVAL -ne 0 ]] && symbols+="$(ansi_single $(fg_color red))✘"
     [[ $UID -eq 0 ]] && symbols+="$(ansi_single $(fg_color yellow))⚡"
     [[ $(jobs -l | wc -l) -gt 0 ]] && symbols+="$(ansi_single $(fg_color cyan))⚙"
 
