@@ -100,13 +100,17 @@ source $OSH/oh-my-bash.sh
 # alias bashconfig="mate ~/.bashrc"
 #alias spicom='picom -b --experimental-backends --backend glx --config ~/.config/picom/picom.conf &'
 alias spicom='picom -b --experimental-backends --backend glx --config ~/.config/picom/picom.conf &'
+alias spicomterm='picom --experimental-backends --backend glx --config ~/.config/picom/picom.conf'
 alias vim='nvim'
 alias doglick='nohup firefox sanger.dk &'
 alias polybarreload='nohup ~/.config/i3/polybar.sh'
 alias ohmybash="mate ~/.oh-my-bash"
 alias ls='ls --color=auto'
 alias pacgrep='pacman -Q | grep'
+alias totar='tar -czvf'
 cdl() {
     cd "$1"
     ls
 }
+
+TERMINAL=alacritty
