@@ -54,7 +54,7 @@ bindsym XF86MonBrightnessUp exec --no-startup-id ~/.config/i3/setbrightness.sh u
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec $TERMINAL
+bindsym $mod+Return exec alacritty
 
 # kill focused window
 bindsym $mod+Shift+q kill
