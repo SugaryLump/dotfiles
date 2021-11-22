@@ -108,6 +108,7 @@ alias ohmybash="mate ~/.oh-my-bash"
 alias ls='ls --color=auto'
 alias pacgrep='pacman -Q | grep'
 alias totar='tar -czvf'
+alias vacation='echo "TOO MANY EXCESS VACATION DAYS? TAKE A GOD DAMN VACATION STRAIGHT TO HELL" ; rm'
 cdl() {
     cd "$1"
     ls
