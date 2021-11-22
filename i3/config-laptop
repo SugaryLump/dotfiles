@@ -234,7 +234,7 @@ smart_gaps on
 
 # apps
 exec_always --no-startup-id ~/.config/i3/polybar.sh &
-exec_always --no-startup-id discord
+exec_always --no-startup-id discord --enable-accelerated-mjpeg-decode --enable-accelerated-video --ignore-gpu-blacklist --enable-native-gpu-memory-buffers --enable-gpu-rasterization
 exec_always --no-startup-id spotify
 exec_always --no-startup-id firefox
 
