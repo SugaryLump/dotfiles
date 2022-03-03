@@ -254,7 +254,7 @@ prompt_git() {
         dirty=$(git_status_dirty)
         ref=$(git symbolic-ref HEAD 2> /dev/null) || ref="➦ $(git show-ref --head -s --abbrev |head -n1 2> /dev/null)"
         if [[ -n $dirty ]]; then
-            prompt_segment yellow black
+            prompt_segment magenta black
         else
             prompt_segment green black
         fi
@@ -264,7 +264,7 @@ prompt_git() {
 
 # Dir: current working directory
 prompt_dir() {
-    prompt_segment blue black '\W'
+    prompt_segment yellow black '\W'
 }
 
 # Status:
