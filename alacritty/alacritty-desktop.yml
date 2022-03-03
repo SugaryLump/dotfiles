@@ -23,7 +23,8 @@
   # available, otherwise `xterm-256color` is used.
   #TERM: alacritty
 
-#window:
+window:
+  opacity: 1
   # Window dimensions (changes require restart)
   #
   # Number of lines/columns (not pixels) in the terminal. The number of columns
@@ -179,8 +180,31 @@ font:
 colors:
   # Default colors
   primary:
-    background: '#021b21'
-    foreground: '#c5d9e7'
+    background: '0x272822'
+    foreground: '0xf8f8f2'
+
+  # Normal colors
+  normal:
+    black:   '0x272822'
+    red:     '0xf92672'
+    green:   '0xa6e22e'
+    yellow:  '0xf4bf75'
+    blue:    '0x66d9ef'
+    magenta: '0xae81ff'
+    cyan:    '0xa1efe4'
+    white:   '0xf8f8f2'
+    gray:    '0x000000'
+
+  # Bright colors
+  bright:
+    black:   '0x75715e'
+    red:     '0xf92672'
+    green:   '0xa6e22e'
+    yellow:  '0xf4bf75'
+    blue:    '0x66d9ef'
+    magenta: '0xae81ff'
+    cyan:    '0xa1efe4'
+    white:   '0xf9f8f5'
 
     # Bright and dim foreground colors
     #
@@ -266,28 +290,6 @@ colors:
   #  text: CellBackground
   #  background: CellForeground
 
-  # Normal colors
-  normal:
-    black:   '#161b1d'
-    red:     '#dd548d'
-    green:   '#568c3b'
-    yellow:  '#e6cb02'
-    blue:    '#257fad'
-    magenta: '#6b6bf1'
-    cyan:    '#2d8f6f'
-    white:   '#7ea2b4'
-
-  # Bright colors
-  #bright:
-  #  black:   '#666666'
-  #  red:     '#d54e53'
-  #  green:   '#b9ca4a'
-  #  yellow:  '#e7c547'
-  #  blue:    '#7aa6da'
-  #  magenta: '#c397d8'
-  #  cyan:    '#70c0b1'
-  #  white:   '#eaeaea'
-
   # Dim colors
   #
   # If the dim colors are not set, they will be calculated automatically based
@@ -357,7 +359,7 @@ colors:
 #
 # Window opacity as a floating point number from `0.0` to `1.0`.
 # The value `0.0` is completely transparent and `1.0` is opaque.
-background_opacity: 0.6
+# background_opacity: 0.6
 
 #selection:
   # This string contains all characters that are used as separators for

@@ -1,7 +1,7 @@
 call plug#begin()
 
-Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
+Plug 'sickill/vim-monokai'
 
 call plug#end()
 
-colorscheme tokyonight
+colorscheme monokai
