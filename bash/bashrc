@@ -108,15 +108,13 @@ alias pacgrep='pacman -Q | grep'
 alias totar='tar -czvf'
 alias vacation='echo "TOO MANY EXCESS VACATION DAYS? TAKE A GOD DAMN VACATION STRAIGHT TO HELL" ; rm'
 
-workia() {
-    FOLDERPATH="/home/sugarylump/Work/Universidade/3Ano1Sem/IA/Fichas/Ficha$1/"
-    zathura "${FOLDERPATH}"*.pdf & disown
-    code "${FOLDERPATH}"*.pl
-}
-
 cdl() {
     cd "$1"
     ls
+}
+
+pdf() {
+    zathura "$1" & disown
 }
 
 TERMINAL=alacritty
