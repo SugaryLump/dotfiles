@@ -54,7 +54,7 @@ bindsym XF86MonBrightnessUp exec --no-startup-id ~/.config/i3/setbrightness.sh u
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec alacritty
+bindsym $mod+Return exec kitty
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -227,7 +227,7 @@ client.background       #FFFFFF
 
 
 #bindsym $mod+d exec "dmenu_run -nf '#BBBBBB' -nb '#222222' -sb '#005577' -sf '#EEEEEE' -fn 'monospace-10' -p 'dmenu prompt &gt;'"
-
+for_window [class="^.*"] border pixel 1
 
 # gaps
 gaps inner 10
