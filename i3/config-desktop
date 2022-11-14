@@ -14,6 +14,9 @@ set $mod Mod4
 # Enable workspace back-and-forth
 workspace_auto_back_and_forth yes
 
+# Disable mouse warping on focus
+mouse_warping none
+
 # Disable focus on mouse hover
 focus_follows_mouse no
 
