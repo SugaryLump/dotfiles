@@ -106,7 +106,7 @@ alias polybarreload='nohup ~/.config/i3/polybar.sh'
 alias ls='ls --color=auto'
 alias pacgrep='pacman -Q | grep'
 alias totar='tar -czvf'
-alias t='kitty & disown'
+alias t='nohup kitty & disown'
 cdl() {
     cd "$1"
     ls
@@ -115,4 +115,4 @@ pdf() {
     zathura "$1" & disown
 }
 
-TERMINAL=alacritty
+export TERMINAL=kitty
