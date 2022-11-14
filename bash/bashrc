@@ -106,13 +106,11 @@ alias polybarreload='nohup ~/.config/i3/polybar.sh'
 alias ls='ls --color=auto'
 alias pacgrep='pacman -Q | grep'
 alias totar='tar -czvf'
-alias vacation='echo "TOO MANY EXCESS VACATION DAYS? TAKE A GOD DAMN VACATION STRAIGHT TO HELL" ; rm'
-
+alias t='kitty & disown'
 cdl() {
     cd "$1"
     ls
 }
-
 pdf() {
     zathura "$1" & disown
 }
